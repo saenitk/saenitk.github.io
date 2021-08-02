@@ -209,7 +209,7 @@ export default function Club() {
               <div className="cm_row5">
                 <ClubMember 
                 src={img22c}
-                name="Lakshmi Aashish Prateek Janaswamy"
+                name="Aashish Prateek"
                 role="Executive Member"
                 mail="aashishprateek.191cs225@nitk.edu.in"
                 lin="http://linkedin.com/in/aashish-prateek-090009167"/>
