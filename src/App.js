@@ -30,7 +30,7 @@ function App() {
       <Header />
        <Switch>
        <div className="app">
-        <Route exact path="/">
+        <Route exact path={process.env.PUBLIC_URL+'/'}>
           <Home />
           <Vision />
           <Core />

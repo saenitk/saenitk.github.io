@@ -26,11 +26,17 @@ const Sidebar = () => {
     const [sidebar, setSidebar] = useState(false);
   
     const showSidebar = () => setSidebar(true);
-    const hideSidebar = () => setSidebar(false);  
+    const hideSidebar = () => setSidebar(false);
+    const hideSidebarScroll = () => {
+      setSidebar(false);  
+      window.scrollTo({
+        top: 0
+      });
+    }
     return (
         <>      
             <div className="nav">
-              <div><Link to="/" onClick={hideSidebar}>
+              <div><Link to="/" onClick={hideSidebarScroll}>
                 <video className="header-video"
                    autostart 
                    autoPlay 
@@ -51,7 +57,7 @@ const Sidebar = () => {
                   <AiIcons.AiOutlineClose color="white"/>
                 </Link>
                 {SidebarData.map((item, index) => {
-                  return <SubMenu item={item} key={index} state={hideSidebar}/>;
+                  return <SubMenu item={item} key={index} state={hideSidebarScroll}/>;
                 })}
               </div>
               <div className="iconsSideNav">

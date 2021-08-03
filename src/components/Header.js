@@ -10,8 +10,7 @@ import Video from "../images/video-edited.mp4";
 
 const scrollToTop = () => {
     window.scrollTo({
-      top: 0,
-      behavior: "smooth"
+      top: 0
     });
   };
 
