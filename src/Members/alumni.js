@@ -49,7 +49,7 @@ function Alumni(){
             </div>
             <Alumni_mem
               img={alumni_img1}
-              name="Rahul Madhogarhiya"
+              name="Rahul Madhogarhia"
               role="MS Student at University of Maryland"
               year="2020"
               email="madhogarhiarahul@gmail.com"
@@ -107,7 +107,7 @@ function Alumni(){
             <Alumni_mem
               img={alumni_img5}
               name="Pradeep Kumar Modi"
-              role="Working at BEL"
+              role="Executive engineer at GAIL India Limited"
               year="2021"
               email="pradeepkumarmodi1998@gmail.com"
               message="SAE-NITK had always been very close to me. Working here is more like a family than
