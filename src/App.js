@@ -26,7 +26,7 @@ import {Event1_20, Event2_20, Event3_20, Event4_20, Event5_20, Event6_20,Event7_
 //import { Carousel } from 'bootstrap';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = React.useState(false);
   const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
   return (
     <Router className="router">

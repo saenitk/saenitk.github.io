@@ -91,3 +91,14 @@
   justify-content: space-evenly;  
 }
 
+[data-theme="dark"] .club_head > h1{
+  color: lightskyblue !important;
+}
+
+[data-theme="dark"] .clubMember >.role > h3 {
+  color: white !important;
+}
+
+[data-theme="dark"] .clubMember >.name > h3 {
+  color: lightblue !important;
+}
