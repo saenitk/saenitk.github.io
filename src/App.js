@@ -1,5 +1,6 @@
 import {HashRouter as Router,Switch,Route}  from 'react-router-dom';
 import './App.css';
+import React, { useState } from "react";
 
 import Header from './components/Header';
 import Home from './Home/home';
@@ -25,11 +26,16 @@ import {Event1_20, Event2_20, Event3_20, Event4_20, Event5_20, Event6_20,Event7_
 //import { Carousel } from 'bootstrap';
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+  const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
   return (
     <Router className="router">
       <Header />
        <Switch>
-       <div className="app">
+       <div className="app" data-theme={darkMode ? "dark" : "light"}>
+       <button onClick={toggleDarkMode}>
+  {darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
+</button>
         <Route exact path={process.env.PUBLIC_URL+'/'}>
           <Home />
           <Vision />

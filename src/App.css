@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+}
 
+[data-theme="dark"] {
+  --bg-color: #292727;
+  --text-color: #fff;
+}
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
 body {
   font-family: 'Montserrat', sans-serif;
 }
