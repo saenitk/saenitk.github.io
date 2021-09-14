@@ -73,7 +73,7 @@ const scrollToTop = () => {
             </div>
           </div>
           <div className="copyright">
-            <p>&copy; Website designed and developed by Prasanthi, Wilson, Shashiprakash</p>
+            <p>&copy;Developed with ❤️ by SAE NITK </p>
           </div>
        </div>
     </footer>
