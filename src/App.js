@@ -36,6 +36,18 @@ function App() {
        <button onClick={toggleDarkMode}>
   {darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
 </button>
+<input type="checkbox" onClick={toggleDarkMode} id="toggle-mode-cb" />
+
+<div id="mode-wrapper">
+  
+  <label id="toggle-mode" for="toggle-mode-cb">
+    <a class="sr-only">Toggle</a>
+    <a class="toggle-border">
+      <a class="toggle-indicator"></a>
+    </a>
+  </label>
+</div>
+
         <Route exact path={process.env.PUBLIC_URL+'/'}>
           <Home />
           <Vision />

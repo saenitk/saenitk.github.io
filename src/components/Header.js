@@ -67,8 +67,8 @@ export default function Header() {
                   </div>
                  </div>
             </div>
-            <ul className={navbarClasses.join(" ")}>              
-              <li className="li6">
+            <ul className={navbarClasses.join(" ")}> 
+          <li className="li6">
                 <Link className="page6" to="/events" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
                   <h3 className="header-text">EVENTS</h3>
                 </Link>
