@@ -248,12 +248,12 @@
    
     color: lightblue !important;
   }
-  [data-theme="dark"] h3{
+  [data-theme="dark"] .title_date > h3{
     background-color:   #272626 !important;
    
     color: lightblue !important;
   }
-  [data-theme="dark"] p{
+  [data-theme="dark"] .title_date > p{
     background-color:   #272626 !important;
    
     color: white !important;

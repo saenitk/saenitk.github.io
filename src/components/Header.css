@@ -154,3 +154,8 @@ li {
     display: none;
   }
 }
+[data-theme="dark"] .hp_icons aos-init aos-animate{
+  
+  background-color:  red !important ;
+   color: lightblue !important;
+ }

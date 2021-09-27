@@ -119,8 +119,8 @@
 [data-theme="dark"] .about-text{
   background-color:   #272626 !important;
 }
-[data-theme="dark"] h1{
+[data-theme="dark"] .about>h1{
   background-color:   #272626 !important;
  
-  color: white !important;
+  color: lightblue !important;
 }

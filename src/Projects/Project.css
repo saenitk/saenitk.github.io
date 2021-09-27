@@ -116,8 +116,14 @@
  
   color: lightblue !important;
 }
-[data-theme="dark"] .p_info{
-  background-color:   #4ed426 !important;
+[data-theme="dark"] .info{
+  background-color:   #272626 !important;
  
   color: lightblue !important;
 }
+[data-theme="dark"] .desc_info > h1{
+  
+ 
+  color: lightblue !important;
+}
+

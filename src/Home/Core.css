@@ -76,3 +76,13 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+[data-theme="dark"] .name> h3{
+  
+ background-color:  none !important ;
+  color: lightblue !important;
+}
+[data-theme="dark"] .heading>h1{
+  
+  background-color:  none !important ;
+   color: lightblue !important;
+ }
