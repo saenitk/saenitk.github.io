@@ -64,7 +64,7 @@ body {
 
 #mode-wrapper {
   transition: all 0.3s ease-in-out;
-  height: 100vh;
+  height: 8vh;
   position: relative;
   font-family: sans-serif;
   font-size: 2rem;

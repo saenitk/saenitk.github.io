@@ -33,9 +33,6 @@ function App() {
       <Header />
        <Switch>
        <div className="app" data-theme={darkMode ? "dark" : "light"}>
-       <button onClick={toggleDarkMode}>
-  {darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
-</button>
 <input type="checkbox" onClick={toggleDarkMode} id="toggle-mode-cb" />
 
 <div id="mode-wrapper">
