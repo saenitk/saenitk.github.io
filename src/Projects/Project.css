@@ -116,4 +116,8 @@
  
   color: lightblue !important;
 }
-
+[data-theme="dark"] .p_info{
+  background-color:   #4ed426 !important;
+ 
+  color: lightblue !important;
+}
