@@ -87,3 +87,40 @@
     border-left:5px solid #90191b ;
   }
 }
+[data-theme="dark"] .quote-1{
+  background-color:   #272626 !important;
+ 
+  color: white !important;
+}
+[data-theme="dark"] .quote-2{
+  background-color:   #272626 !important;
+ 
+  color: white !important;
+}
+[data-theme="dark"] .quote2-i{
+  background-color:   #272626 !important;
+ 
+  color: lightblue !important;
+}
+[data-theme="dark"] .quote1-i{
+  background-color:   #272626 !important;
+ 
+  color: lightblue !important;
+}
+[data-theme="dark"] .about-l1{
+  background-color:   #272626 !important;
+ 
+  color: white !important;
+}
+[data-theme="dark"] .about{
+  background-color:   #272626 !important;
+ 
+}
+[data-theme="dark"] .about-text{
+  background-color:   #272626 !important;
+}
+[data-theme="dark"] h1{
+  background-color:   #272626 !important;
+ 
+  color: white !important;
+}
