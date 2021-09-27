@@ -243,7 +243,34 @@
       margin: 0;
     }
   } 
- 
+  [data-theme="dark"] .blogs{
+    background-color:   #272626 !important;
+   
+    color: lightblue !important;
+  }
+  [data-theme="dark"] h3{
+    background-color:   #272626 !important;
+   
+    color: lightblue !important;
+  }
+  [data-theme="dark"] p{
+    background-color:   #272626 !important;
+   
+    color: white !important;
+  }
+  [data-theme="dark"] .blog_info{
+    background-color:   #272626 !important;
+  }
+  [data-theme="dark"] .blogmain{
+    background-color:   #272626 !important;
+   
+    color: lightblue !important;
+  }
+  [data-theme="dark"] .heading_blog{
+    background-color:   #272626 !important;
+   
+    color: lightblue !important;
+  }
 
 
 

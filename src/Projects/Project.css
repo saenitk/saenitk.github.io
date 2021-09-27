@@ -106,5 +106,14 @@
   .pp1 { font-size: 5rem; }
   .pp2 { font-size: 2rem; }
 }
-
+[data-theme="dark"] .pp1{
+  background-color:   #272626 !important;
+ 
+  color: lightblue !important;
+}
+[data-theme="dark"] .pp2{
+  background-color:   #272626 !important;
+ 
+  color: lightblue !important;
+}
 
