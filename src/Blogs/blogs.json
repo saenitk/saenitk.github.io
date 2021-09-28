@@ -1,13 +1,5 @@
 [
-    {
-        "image":"https://saenitk.files.wordpress.com/2021/03/xl_white_back_b_optim.jpg",
-        "title":"The Wireless Earbuds",
-        "desc":"Wireless earphones have been a norm in the world of earphones. Once considered a luxury product, they have become available to the masses for as low as Rs300. It is fascinating to see how a device so small can produce such high-quality audio whilst having a good battery life🔋.Join us in our new blog post as we explore Wireless Earbuds🎧",
-        "link":"https://saenitk.wordpress.com/2021/07/20/the-wireless-earbuds/",
-        "date":"July 21, 2021",
-        "author":"Islavath Manohar"
-
-    },
+    
     {
         "image":"https://saenitk.files.wordpress.com/2021/03/avs-at-night-cropped-1.jpg",
         "title":"Autonomous Vehicles",
@@ -200,6 +192,15 @@
         "link":"https://saenitk.wordpress.com/2020/05/15/role-of-technology-in-the-battle-against-covid19/",
         "date":"May 15, 2020",
         "author":"Diwakar S Goud"
+    },
+    {
+        "image":"https://saenitk.files.wordpress.com/2021/03/xl_white_back_b_optim.jpg",
+        "title":"The Wireless Earbuds",
+        "desc":"Wireless earphones have been a norm in the world of earphones. Once considered a luxury product, they have become available to the masses for as low as Rs300. It is fascinating to see how a device so small can produce such high-quality audio whilst having a good battery life🔋.Join us in our new blog post as we explore Wireless Earbuds🎧",
+        "link":"https://saenitk.wordpress.com/2021/07/20/the-wireless-earbuds/",
+        "date":"July 21, 2021",
+        "author":"Islavath Manohar"
+
     }
 ]
 

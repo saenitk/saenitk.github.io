@@ -62,9 +62,6 @@ export default function Header() {
                   <div className="icon_hp_outer">
                     <FaIcons.FaInstagram className="icon_hp" onClick={()=> window.open("https://www.instagram.com/sae_nitk/?hl=en", "_blank")}/>
                   </div>
-                  <div className="icon_hp_outer">
-                    <FaIcons.FaWordpressSimple className="icon_hp" onClick={()=> window.open("https://saenitk.wordpress.com/", "_blank")}/>
-                  </div>
                  </div>
             </div>
             <ul className={navbarClasses.join(" ")}> 
