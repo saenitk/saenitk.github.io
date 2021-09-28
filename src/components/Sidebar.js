@@ -8,6 +8,7 @@ import SubMenu from './SubMenu';
 import { IconContext } from 'react-icons/lib';
 import './sidebar.css';
 import Video from "../images/video-edited.mp4";
+import image from "../images/sae_trans.png";
 
 const SidebarNav = styled.nav`
   background: #204095;
@@ -37,14 +38,7 @@ const Sidebar = () => {
         <>      
             <div className="nav">
               <div><Link to="/" onClick={hideSidebarScroll}>
-                <video className="header-video"
-                   autostart 
-                   autoPlay 
-                   muted
-                   src={Video} 
-                   type="video/mp4" 
-                   width="150px"
-                   height="auto"/>
+              <img src={image} width="150px" height="auto"/>
                </Link></div>
               <div className="bars">
                <Link to='#'>
@@ -73,9 +67,6 @@ const Sidebar = () => {
                <div className="icon_sidenav_outer">
                 <Fa.FaYoutube className="icon_sidenav" onClick={()=> window.open("https://www.youtube.com/channel/UCPiCkG64oF7KKec7tEhquyw", "_blank")}/>
                </div>  
-               <div className="icon_sidenav_outer">
-                 <Fa.FaWordpressSimple className="icon_sidenav" onClick={()=> window.open("https://saenitk.wordpress.com/", "_blank")}/>
-                </div>  
              </div>
             </SidebarNav>
             
