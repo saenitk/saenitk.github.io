@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2ed9e819.chunk.css",
-    "main.js": "/static/js/main.256f7aa9.chunk.js",
-    "main.js.map": "/static/js/main.256f7aa9.chunk.js.map",
+    "main.js": "/static/js/main.59cab7de.chunk.js",
+    "main.js.map": "/static/js/main.59cab7de.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4cda07d2.js",
     "runtime-main.js.map": "/static/js/runtime-main.4cda07d2.js.map",
     "static/css/2.4be38407.chunk.css": "/static/css/2.4be38407.chunk.css",
@@ -81,6 +81,7 @@
     "static/media/project2-4.bac5e5fd.jpeg": "/static/media/project2-4.bac5e5fd.jpeg",
     "static/media/project2-5.810005ad.jpeg": "/static/media/project2-5.810005ad.jpeg",
     "static/media/project2-6.a0b4e2e7.jpeg": "/static/media/project2-6.a0b4e2e7.jpeg",
+    "static/media/sae_trans.029065d5.png": "/static/media/sae_trans.029065d5.png",
     "static/media/shrivatsa.f310a36f.jpg": "/static/media/shrivatsa.f310a36f.jpg",
     "static/media/video-edited.78fd0517.mp4": "/static/media/video-edited.78fd0517.mp4",
     "static/media/webinar-rspant.9805bb0d.jpg": "/static/media/webinar-rspant.9805bb0d.jpg",
@@ -91,6 +92,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.8061d4ad.chunk.js",
     "static/css/main.2ed9e819.chunk.css",
-    "static/js/main.256f7aa9.chunk.js"
+    "static/js/main.59cab7de.chunk.js"
   ]
 }
